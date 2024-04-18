@@ -30,10 +30,16 @@ body {
     align-items: center;
     min-height: 100vh;
     flex-direction: column;
-    background-image: url(images/background.png);
+    background-image: url(https://i.postimg.cc/mrPcsqr0/Frame-4.png);
     background-repeat: no-repeat;
     background-size: 100%;
     background-color: var(--Light-pink);
+}
+
+.headimg {
+
+    width: 100%;
+    height: 320px;
 }
 
 .accordion-container {
@@ -43,6 +49,7 @@ body {
     border-radius: 1rem;
     padding: 1.5rem 1.5rem 0;
     margin-bottom: 0.5rem;
+    position: absolute;
 }
 
 header {
@@ -131,6 +138,7 @@ main {
 }
 
 @media (max-width: 566px) {
+    
     .accordion-container {
         width: 90%;
         margin: 10% 0;
